@@ -1,0 +1,298 @@
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-family: Verdana, Arial, san-serif;
+  font-size: 12px;
+  color: #e7eaeb;
+  background: #6d6a6b url(../img/emo_bg.jpg) repeat;
+}
+
+a:link, a:visited{
+  color: #00a1ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active, a:hover{
+  color: #00a1ff;
+  text-decoration: underline;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.cleaner{
+  clear: both;
+  width: 100%;
+  height: 1px;
+  font-size: 1px;
+}
+
+#emo_wrapper{
+  margin: 0 auto;
+  background: url("../img/gradient_bg.jpg") top repeat-x;
+}
+
+#emo_container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+}
+
+#emo_banner {
+  clear: both;
+  width: 880px;
+  height: 250px;
+  padding: 0 40px;
+  margin: 0 0 5px 0;
+  background: url("../img/banner.jpg") no-repeat;
+}
+
+#emo_banner h1 {
+	margin: 0px;
+	padding: 0px;
+	padding: 80px 0 20px 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#emo_banner p {
+	font-size: 30px;
+	width: 400px;
+	line-height: 30px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#emo_content {
+	clear: both;
+	position: relative;
+	width: 956px;
+	padding: 0 2px;
+  background: url("../img/emo_content_middle.jpg") repeat-y;
+}
+
+#emo_content #content_top {
+	position: absolute;
+	width: 960px;
+	height: 10px;
+	top: 0;
+	left: 0;
+  background: url("../img/emo_content_top.jpg") no-repeat;
+}
+
+#emo_content h1 {
+	font-size: 24px;
+	color: #009dff;
+	padding: 0 0 20px 0;
+	margin: 0 0 10px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#emo_content h2 {
+	font-size: 20px;
+	color: #009dff;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#emo_content h3 {
+	font-size: 16px;
+	color: #c6ca1d;
+	padding: 0 0 5px 30px;
+	margin: 0 0 5px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: url("../img/emo_list_icon.jpg") top left no-repeat;
+}
+
+#emo_content img {
+	float: left;
+	border: 3px solid #221e1f;
+	margin: 3px 30px 5px 0;
+}
+
+#emo_content .emo_content_section_01{
+  clear: both;
+	width: 876px;
+	padding: 40px;
+	background-color: #444041;
+}
+
+.emo_content_section_01 .section_01_left{
+  float: left;
+  width: 556px;
+  padding-right: 40px;
+  border-right: 1px solid #333;
+}
+
+.emo_content_section_01 .section_01_right{
+  float: right;
+	width: 238px;
+}
+
+.section_01_left p{
+  padding-bottom: 10px;
+	text-align: justify;
+}
+
+.section_01_right p{
+  padding-bottom: 5px;
+	text-align: justify;
+}
+
+#emo_content .emo_content_section_02{
+  clear: both;
+	color: #CCC;
+	width: 956px;
+	padding: 0px;
+	border-top: 1px solid #2c2829;
+	background-color: #221e1f;
+}
+
+.emo_content_section_02 p{
+  text-align: left;
+}
+
+.emo_content_section_02 .section_02_subsection{
+  float: left;
+	width: 238px;
+	margin: 30px 0px;
+	padding: 0 40px;
+	border-right: 1px solid #332e30;
+	background-color: #221e1f;
+}
+
+
+.section_02_subsection li a {
+	color: #e7eaeb;
+	font-weight: normal;
+}
+
+.section_02_subsection ul {
+	margin: 20px 0 10px 10px;
+	padding: 0px;
+	list-style: none;
+}
+
+.section_02_subsection li {
+	margin: 0px;
+	padding: 0 0 15px 25px;
+  background: url("../img/emo_list_icon_02.jpg") top left no-repeat;
+}
+
+#emo_footer {
+	clear: both;
+	width: 960px;
+	height: 65px;
+	padding: 15px 0 0 0;
+	text-align: center;
+	color: #888;
+  background: url("../img/emo_footer.jpg");
+}
+
+#emo_footer p{
+  padding-bottom: 5px;
+}
+
+#emo_footer a{
+    font-weight: normal;
+    color: #888;
+}
+
+#menu{
+  clear: both;
+	width: 958px;
+	height: 125px;
+	padding: 0 1px;
+  background: url("../img/emo_top_panel_bg.jpg") no-repeat;
+}
+
+.indentmenu{
+  font: bold 14px Arial;
+	height: 58px;
+  width: 958px;
+}
+
+.indentmenu ul{
+  margin: 0;
+	padding: 0;
+	height: 58px;
+  background: black url(indentbg.gif) center center repeat-x;
+}
+.indentmenu ul li{
+   display: inline;
+}
+
+.indentmenu ul li a{
+   float: left;
+   color: white;
+   width: 158px;
+   text-align: center;
+   height: 40px;
+   padding-top: 18px;
+   text-decoration: none;
+   border-right: 2px solid #000;
+   background: url("../img/emo_menu_bg.jpg") repeat-x;
+   outline: none;
+}
+
+.indentmenu ul li a:visited{
+   color: white;
+}
+
+.indentmenu ul li a.selected, .indentmenu ul li a:hover{
+   color: white !important;
+   background: black url("../img/emo_menu_hover_bg.jpg") center center;
+}
+
+.indentmenu li .last{
+	border-right: none;
+}
+
+
+.tabcontentstyle{
+  clear: both;
+  width:900px; height: 35px; padding: 23px 30px 0 30px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.tabcontentstyle ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.tabcontentstyle li{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.tabcontentstyle li a {
+	font-weight: normal;
+	color: #FFF;
+	margin: 0px;
+	padding: 0 10px 0 5px;
+}
+
+.tabcontent{
+  display:none;
+}
+
+@media print {
+  .tabcontent {
+     display:block !important;
+   }
+}
